@@ -229,7 +229,12 @@
         
        }
 
-
+       #itemContato{
+        padding-right: 4%;
+        background-color: #bdff9c;
+        margin-right: 10px;
+        text-align: center;
+       }
 
 
     
