@@ -25,7 +25,7 @@
     }
 
     nav li{
-        display: inline;
+        display: inline-flex;
         background-image: url(../img/patinha-preta.png);
         background-repeat: no-repeat;
         padding-right: 27px;
@@ -167,6 +167,7 @@
         margin-top: 20px;
     }
 
+
     @media screen and (max-width: 580px ) {
 
        html{
@@ -215,6 +216,21 @@
        .fundo-Verde{
         width: 600px;
        }
+
+       nav li{
+        display: block;
+        background-image: none;
+        padding-top: 5%;
+        margin-left: 12%;
+        padding-bottom: 2%;
+        background-color: #bdff9c;
+        border: 1px solid white;
+        border-radius: 15px;
+        
+       }
+
+
+
 
     
     
