@@ -220,13 +220,22 @@
        nav li{
         display: block;
         background-image: none;
-        padding-top: 5%;
+        padding-top: 3%;
         margin-left: 12%;
         padding-bottom: 2%;
         background-color: #bdff9c;
-        border: 1px solid white;
+        border: 3px solid #6dd432;
         border-radius: 15px;
+        transition: transform .2s;
+        background: linear-gradient(to right, #6dd432, #91e467, #bdff9c);
+        margin-bottom: 2%;
         
+       }
+
+       nav li:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 10px -10px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(to right, #6dd432, #91e467, #bdff9c);
        }
 
        #itemContato{
@@ -234,6 +243,7 @@
         background-color: #bdff9c;
         margin-right: 10px;
         text-align: center;
+        background: linear-gradient(to right, #6dd432, #91e467, #bdff9c);
        }
 
 
