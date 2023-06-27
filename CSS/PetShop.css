@@ -150,12 +150,12 @@
     }
 
     .icones{
-        margin-left: 128px;
+        margin-left: 0.1%;
         padding-top: 30px;
     }
 
     .patona{
-        margin-left: 20px;
+        margin-left: 5px;
     }
 
     #redes{
@@ -201,12 +201,12 @@
 
        .icones{
         text-align: center;
-        margin-right: 18%;
+        margin-right: 0.20%;
        }
 
        .redes{
         text-align: center;
-        margin-left: 10%;
+        margin-left: 20%;
        }
 
        header{
@@ -239,7 +239,7 @@
        }
 
        #itemContato{
-        padding-right: 4%;
+        padding-right: 10%;
         background-color: #bdff9c;
         margin-right: 10px;
         text-align: center;
